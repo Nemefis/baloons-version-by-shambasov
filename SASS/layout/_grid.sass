@@ -10,6 +10,8 @@
         max-width: 90.1rem
     @include respond(tab-port)
         min-width: 60rem
+    @include respond(phone)
+        min-width: auto
 
 .col-1-of-2
     width: calc((100% - #{$gutter-horizontal}) / 2)
